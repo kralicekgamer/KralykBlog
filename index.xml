@@ -6,49 +6,49 @@
     <description>Recent content on Kralyk&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.kralyk.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>(Ne)vezme nám AI práci</title>
-      <link>https://blog.kralyk.dev/posts/nevezme-nam-ai-praci/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.kralyk.dev/posts/nevezme-nam-ai-praci/</guid>
-      <description>&lt;p&gt;Umělá intaligence, neboli AI, se v posledních letech stává nedílnou součástí našich životů. Ale bude to v budoucnu tak, že AI nám vezme práci?&lt;/p&gt;&#xA;&lt;p&gt;Dnešní &amp;ldquo;AI revoluci&amp;rdquo; si můžeme představit jako průmyslovou revoluci. Zlehčuje a urychluje se práce. V průmyslové revoluci stroje vzaly práci několika profesím, ale pořád bylo potřeba stoje obsluhovat a nějaké práce prostě nešly nahradit stroji. Takto to vypadá i v dnešní době. Připadá mi, že se historie opakuje a zažíváme znovu průmyslovou revoluci.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>IPv4</title>
-      <link>https://blog.kralyk.dev/posts/ipv4/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.kralyk.dev/posts/ipv4/</guid>
-      <description>&lt;p&gt;IPv4 neboli &amp;ldquo;Internet Protocol version 4&amp;rdquo; je to jeden ze nejzákladnějších protokolů internetu. IPv4 poskytuje adresní prostor (2^32) neboli 4 294 967 296 jedinečných adres, ale v realitě to je mnohem méně, protože většina adres je rezervována pro speciální účely jako jsou lokální sítě.&lt;/p&gt;&#xA;&lt;h1 id=&#34;adresování&#34;&gt;Adresování&lt;/h1&gt;&#xA;&lt;p&gt;IPv4 používá 32-bitové adresování, proto tedy máme pouze (2^32) adres.&lt;/p&gt;&#xA;&lt;h2 id=&#34;reprezentace-ip-adres&#34;&gt;Reprezentace IP adres&lt;/h2&gt;&#xA;&lt;p&gt;Adresy IPv4 mohou být zaznamenány libovolných zápisem, který vyjadřuje 32-bitovou hodnotu. Nejčastěji se zapisuje v desítkové soustavě, kde se skládá ze čtyř oktet. Okteta je část IP oddělená tečkami.&#xA;Například adresa IP se čtyřmi tečkami na obrázku (172.16.254.1) představuje 32-bitové desítkové číslo 2886794753, které v hexadecimálním formátu znamená 0xAC10FE01.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>IT slovník</title>
       <link>https://blog.kralyk.dev/posts/it-slovn%C3%ADk/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.kralyk.dev/posts/it-slovn%C3%ADk/</guid>
       <description>&lt;h2 id=&#34;obecné-pojmy&#34;&gt;Obecné pojmy&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WWW (World Wide Web) - systém pro prohlížení dokumentů nacházejících se na internetu&lt;/li&gt;&#xA;&lt;li&gt;WiFi (Wireless Fidelity) - bezdrátové připojení k počítačovým sítím&lt;/li&gt;&#xA;&lt;li&gt;ISP (Internet Service Provider) - poskytovatel připojení k internetu&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;reprezentace-dat&#34;&gt;Reprezentace dat&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;bit - nejednoduší reprezentace informací, (0, 1)&lt;/li&gt;&#xA;&lt;li&gt;nibble - ozačuje 4 bity&lt;/li&gt;&#xA;&lt;li&gt;bajt - označuje 8 bitů&lt;/li&gt;&#xA;&lt;li&gt;kilobyte (KB) - 1 024 bajtů&lt;/li&gt;&#xA;&lt;li&gt;megabyte(MB) - 1 024 KB&lt;/li&gt;&#xA;&lt;li&gt;gigabyte (GB) - 1 024 MB&lt;/li&gt;&#xA;&lt;li&gt;terabyte (TB) - 1 024 GB&lt;/li&gt;&#xA;&lt;li&gt;petabyte (PB) - 1 024 TB&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;pozn.: Pokud jsou jednotky uvedeny malými písmeny, například kb, Kb nebo kB, jedná se o &lt;strong&gt;kilobity&lt;/strong&gt; (kb), což odpovídá 1000 &lt;strong&gt;bitům&lt;/strong&gt;. Tyto jednotky se často používají k vyjádření rychlosti přenosu dat, například v Kbps(&lt;strong&gt;kilobity&lt;/strong&gt; za sekundu).&lt;/p&gt;</description>
     </item>
     <item>
+      <title>IPv4</title>
+      <link>https://blog.kralyk.dev/posts/ipv4/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.kralyk.dev/posts/ipv4/</guid>
+      <description>&lt;p&gt;IPv4 neboli &amp;ldquo;Internet Protocol version 4&amp;rdquo; je to jeden ze nejzákladnějších protokolů internetu. IPv4 poskytuje adresní prostor (2^32) neboli 4 294 967 296 jedinečných adres, ale v realitě to je mnohem méně, protože většina adres je rezervována pro speciální účely jako jsou lokální sítě.&lt;/p&gt;&#xA;&lt;h1 id=&#34;adresování&#34;&gt;Adresování&lt;/h1&gt;&#xA;&lt;p&gt;IPv4 používá 32-bitové adresování, proto tedy máme pouze (2^32) adres.&lt;/p&gt;&#xA;&lt;h2 id=&#34;reprezentace-ip-adres&#34;&gt;Reprezentace IP adres&lt;/h2&gt;&#xA;&lt;p&gt;Adresy IPv4 mohou být zaznamenány libovolných zápisem, který vyjadřuje 32-bitovou hodnotu. Nejčastěji se zapisuje v desítkové soustavě, kde se skládá ze čtyř oktet. Okteta je část IP oddělená tečkami.&#xA;Například adresa IP se čtyřmi tečkami na obrázku (172.16.254.1) představuje 32-bitové desítkové číslo 2886794753, které v hexadecimálním formátu znamená 0xAC10FE01.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(Ne)vezme nám AI práci</title>
+      <link>https://blog.kralyk.dev/posts/nevezme-nam-ai-praci/</link>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.kralyk.dev/posts/nevezme-nam-ai-praci/</guid>
+      <description>&lt;p&gt;Umělá intaligence, neboli AI, se v posledních letech stává nedílnou součástí našich životů. Ale bude to v budoucnu tak, že AI nám vezme práci?&lt;/p&gt;&#xA;&lt;p&gt;Dnešní &amp;ldquo;AI revoluci&amp;rdquo; si můžeme představit jako průmyslovou revoluci. Zlehčuje a urychluje se práce. V průmyslové revoluci stroje vzaly práci několika profesím, ale pořád bylo potřeba stoje obsluhovat a nějaké práce prostě nešly nahradit stroji. Takto to vypadá i v dnešní době. Připadá mi, že se historie opakuje a zažíváme znovu průmyslovou revoluci.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Přenos informací po internetu</title>
+      <link>https://blog.kralyk.dev/posts/prenos-informac-po-internetu/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.kralyk.dev/posts/prenos-informac-po-internetu/</guid>
+      <description>&lt;p&gt;Základní jednota dat která se po internetu přenáší je packet. Packet si můžeme představit jako dopis, má svojí adresu kam má dojít a svůj obsah.&lt;/p&gt;&#xA;&lt;h1 id=&#34;struktura-packetu&#34;&gt;Struktura packetu&lt;/h1&gt;&#xA;&lt;p&gt;Packet se skládá z řídících a uživatelských dat. Řídící data jsou ty, která jsou nutná při doručení packetu jako je to, kam má dojít, odkud jde a kódy pro detekci chyb (kontrolní součty a informace o pořadí). Samotná uživatelská data jsou mezi řídícími daty.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Kofein</title>
       <link>https://blog.kralyk.dev/posts/kofein/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.kralyk.dev/posts/kofein/</guid>
       <description>&lt;h1 id=&#34;co-to-vlastně-kofein-je&#34;&gt;Co to vlastně kofein je?&lt;/h1&gt;&#xA;&lt;p&gt;Kofein je chemická sloučenina přirozeně se vyskytující v různých částech rostlin jako je např. káva a kakaové boby a čajové lístky. Patří mezi alkaloidy, které stimulují centrální nervovou soustavu a srdeční činnost, tudíž ho řadíme mezi nejrozšířenější drogu na světe.&#xA;Kofein je obsažen v takzvaných energetických nápojích, spolu s dalšími ingrediencemi jako je taurin a D-glukuronolakton. Rovněž je přítomen v kombinaci s p-synefrinem v řadě potravinových doplňků, které se prodávají ke snížení tělesné hmotnosti a zvýšení sportovního výkonu.&#xA;Čistý kofein je bílí hebký prášek hořké chuti&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kreatin</title>
       <link>https://blog.kralyk.dev/posts/kreatin/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://blog.kralyk.dev/posts/kreatin/</guid>
       <description>&lt;h1 id=&#34;co-to-vlastně-kreatin-je&#34;&gt;Co to vlastně kreatin je?&lt;/h1&gt;&#xA;&lt;p&gt;Kreatin je organická sloučenina běžně vyskytující se v těle. Kreatin slouží ke zvýšení výkonů sportovců a nabírání svalové hmoty. Tato sloučenina se nachází převážně ve svalech, kde je využívána k produkci energie během krátkých, intenzivních fyzických aktivit, jako je sprint nebo vzpírání.&lt;/p&gt;&#xA;&lt;h1 id=&#34;účinky&#34;&gt;Účinky&lt;/h1&gt;&#xA;&lt;h2 id=&#34;výhody&#34;&gt;Výhody&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Zvýšení výkonu&lt;/li&gt;&#xA;&lt;li&gt;Podpora růstu svalů&lt;/li&gt;&#xA;&lt;li&gt;Lepší regenerace&lt;/li&gt;&#xA;&lt;li&gt;Podpora mozkové funkce a zlepšení kognitivních schopností&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;nežádoucí-účinky&#34;&gt;Nežádoucí účinky&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Přibývání na váze&lt;/li&gt;&#xA;&lt;li&gt;Svalové křeče&lt;/li&gt;&#xA;&lt;li&gt;Podrážděný žaludek&lt;/li&gt;&#xA;&lt;li&gt;Průjem&lt;/li&gt;&#xA;&lt;li&gt;Závrať&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;funkce-ledvin&#34;&gt;Funkce ledvin&lt;/h2&gt;&#xA;&lt;p&gt;Výzkum publikovaný National Kidney Foundation v roce 2019 zkoumal, zda má suplementace kreatinem nepříznivé účinky na zdraví ledvin. Autoři analyzovali 15 studií z let 1997 až 2013, které se zaměřovaly na běžné dávkování kreatinu. Výsledky ukázaly, že ačkoli suplementace kreatinem vedla k mírnému zvýšení hladin kreatininu v krvi, hodnoty zůstaly v normálních mezích a nebylo zjištěno žádné poškození ledvin.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Přenos informací po internetu</title>
-      <link>https://blog.kralyk.dev/posts/prenos-informac-po-internetu/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.kralyk.dev/posts/prenos-informac-po-internetu/</guid>
-      <description>&lt;p&gt;Základní jednota dat která se po internetu přenáší je packet. Packet si můžeme představit jako dopis, má svojí adresu kam má dojít a svůj obsah.&lt;/p&gt;&#xA;&lt;h1 id=&#34;struktura-packetu&#34;&gt;Struktura packetu&lt;/h1&gt;&#xA;&lt;p&gt;Packet se skládá z řídících a uživatelských dat. Řídící data jsou ty, která jsou nutná při doručení packetu jako je to, kam má dojít, odkud jde a kódy pro detekci chyb (kontrolní součty a informace o pořadí). Samotná uživatelská data jsou mezi řídícími daty.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
