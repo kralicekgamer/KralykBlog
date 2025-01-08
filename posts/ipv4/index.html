@@ -1,0 +1,468 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+  dir="ltr"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>IPv4 - Kralyk&#39;s Blog</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="IPv4 neboli &ldquo;Internet Protocol version 4&rdquo; je to jeden ze nejzákladnějších protokolů internetu. IPv4 poskytuje adresní prostor (2^32) neboli 4 294 967 296 jedinečných adres, ale v realitě to je mnohem méně, protože většina adres je rezervována pro speciální účely jako jsou lokální sítě.
+Adresování
+IPv4 používá 32-bitové adresování, proto tedy máme pouze (2^32) adres.
+Reprezentace IP adres
+Adresy IPv4 mohou být zaznamenány libovolných zápisem, který vyjadřuje 32-bitovou hodnotu. Nejčastěji se zapisuje v desítkové soustavě, kde se skládá ze čtyř oktet. Okteta je část IP oddělená tečkami.
+Například adresa IP se čtyřmi tečkami na obrázku (172.16.254.1) představuje 32-bitové desítkové číslo 2886794753, které v hexadecimálním formátu znamená 0xAC10FE01." />
+  <meta name="author" content="Kralyk&#39;s Blog" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://blog.kralyk.dev/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://blog.kralyk.dev/theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://blog.kralyk.dev/github.svg" />
+  
+  <link rel="preload" as="image" href="https://blog.kralyk.dev/instagram.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://blog.kralyk.dev/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link
+    rel="icon"
+    href="https://blog.kralyk.dev/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://blog.kralyk.dev/apple-touch-icon.png"
+  />
+
+  
+  <meta name="generator" content="Hugo 0.140.2">
+
+  
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="IPv4">
+  <meta itemprop="description" content="IPv4 neboli “Internet Protocol version 4” je to jeden ze nejzákladnějších protokolů internetu. IPv4 poskytuje adresní prostor (2^32) neboli 4 294 967 296 jedinečných adres, ale v realitě to je mnohem méně, protože většina adres je rezervována pro speciální účely jako jsou lokální sítě.
+Adresování IPv4 používá 32-bitové adresování, proto tedy máme pouze (2^32) adres.
+Reprezentace IP adres Adresy IPv4 mohou být zaznamenány libovolných zápisem, který vyjadřuje 32-bitovou hodnotu. Nejčastěji se zapisuje v desítkové soustavě, kde se skládá ze čtyř oktet. Okteta je část IP oddělená tečkami. Například adresa IP se čtyřmi tečkami na obrázku (172.16.254.1) představuje 32-bitové desítkové číslo 2886794753, které v hexadecimálním formátu znamená 0xAC10FE01.">
+  <meta itemprop="datePublished" content="2025-01-08T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-01-08T00:00:00+00:00">
+  <meta itemprop="wordCount" content="362">
+  
+  <meta property="og:url" content="https://blog.kralyk.dev/posts/ipv4/">
+  <meta property="og:site_name" content="Kralyk&#39;s Blog">
+  <meta property="og:title" content="IPv4">
+  <meta property="og:description" content="IPv4 neboli “Internet Protocol version 4” je to jeden ze nejzákladnějších protokolů internetu. IPv4 poskytuje adresní prostor (2^32) neboli 4 294 967 296 jedinečných adres, ale v realitě to je mnohem méně, protože většina adres je rezervována pro speciální účely jako jsou lokální sítě.
+Adresování IPv4 používá 32-bitové adresování, proto tedy máme pouze (2^32) adres.
+Reprezentace IP adres Adresy IPv4 mohou být zaznamenány libovolných zápisem, který vyjadřuje 32-bitovou hodnotu. Nejčastěji se zapisuje v desítkové soustavě, kde se skládá ze čtyř oktet. Okteta je část IP oddělená tečkami. Například adresa IP se čtyřmi tečkami na obrázku (172.16.254.1) představuje 32-bitové desítkové číslo 2886794753, které v hexadecimálním formátu znamená 0xAC10FE01.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-08T00:00:00+00:00">
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="IPv4">
+  <meta name="twitter:description" content="IPv4 neboli “Internet Protocol version 4” je to jeden ze nejzákladnějších protokolů internetu. IPv4 poskytuje adresní prostor (2^32) neboli 4 294 967 296 jedinečných adres, ale v realitě to je mnohem méně, protože většina adres je rezervována pro speciální účely jako jsou lokální sítě.
+Adresování IPv4 používá 32-bitové adresování, proto tedy máme pouze (2^32) adres.
+Reprezentace IP adres Adresy IPv4 mohou být zaznamenány libovolných zápisem, který vyjadřuje 32-bitovou hodnotu. Nejčastěji se zapisuje v desítkové soustavě, kde se skládá ze čtyř oktet. Okteta je část IP oddělená tečkami. Například adresa IP se čtyřmi tečkami na obrázku (172.16.254.1) představuje 32-bitové desítkové číslo 2886794753, které v hexadecimálním formátu znamená 0xAC10FE01.">
+
+  
+  
+
+  
+  <link rel="canonical" href="https://blog.kralyk.dev/posts/ipv4/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="https://blog.kralyk.dev/"
+      >Kralyk&#39;s Blog</a
+    >
+    <div
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
+    >
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/kralicekgamer"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/matej.adamec_"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-14">
+    <h1 class="!my-0 pb-2.5">IPv4</h1>
+
+    
+    <div class="text-xs antialiased opacity-60">
+      
+      <time>Jan 8, 2025</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p>IPv4 neboli &ldquo;Internet Protocol version 4&rdquo; je to jeden ze nejzákladnějších protokolů internetu. IPv4 poskytuje adresní prostor (2^32) neboli 4 294 967 296 jedinečných adres, ale v realitě to je mnohem méně, protože většina adres je rezervována pro speciální účely jako jsou lokální sítě.</p>
+<h1 id="adresování">Adresování</h1>
+<p>IPv4 používá 32-bitové adresování, proto tedy máme pouze (2^32) adres.</p>
+<h2 id="reprezentace-ip-adres">Reprezentace IP adres</h2>
+<p>Adresy IPv4 mohou být zaznamenány libovolných zápisem, který vyjadřuje 32-bitovou hodnotu. Nejčastěji se zapisuje v desítkové soustavě, kde se skládá ze čtyř oktet. Okteta je část IP oddělená tečkami.
+Například adresa IP se čtyřmi tečkami na obrázku (172.16.254.1) představuje 32-bitové desítkové číslo 2886794753, které v hexadecimálním formátu znamená 0xAC10FE01.</p>
+<h2 id="přidělení-ip-adres">Přidělení IP adres</h2>
+<p>Původní návrh protokolu IPv4 rozdělil IP adresy na síťový identifikátor a identifikátor hostitele, což umožňovalo maximálně 256 sítí. Tento limit se však brzy ukázal jako nedostatečný, a proto byly v roce 1981 zavedeny síťových třídy.</p>
+<h2 id="třídy">Třídy</h2>
+<p>Rozdělení síťových adres na 5 tříd. Každá z nich měla specifický rozsah a počet sítí.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Třída</th>
+          <th>Rozsah adres</th>
+          <th>Maska</th>
+          <th>Prefix CIDR</th>
+          <th>Počet adres</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>0.0.0.0 - 127.255.255.255</td>
+          <td>255.0.0.0</td>
+          <td>/8</td>
+          <td>16 777 216 (2^24)</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>128.0.0.0 - 191.255.255.255</td>
+          <td>255.255.0.0</td>
+          <td>/16</td>
+          <td>65 536 (2^16)</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>192.0.0.0 - 223.255.255.255</td>
+          <td>255.255.255.0</td>
+          <td>/24</td>
+          <td>256 (2^8)</td>
+      </tr>
+      <tr>
+          <td>D</td>
+          <td>224.0.0.0 - 239.255.255.255</td>
+          <td>Speciální (multicast)</td>
+          <td>N/A</td>
+          <td>N/A</td>
+      </tr>
+      <tr>
+          <td>E</td>
+          <td>240.0.0.0 - 255.255.255.255</td>
+          <td>Speciální (výzkum)</td>
+          <td>N/A</td>
+          <td>N/A</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="lokální-sítě">Lokální sítě</h3>
+<p>A jak vlastně vznikly lokální sítě? No jednoduše, prostě se vzal první blok IP ze tříd A, B a C. Vznikne nám tedy:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Třída</th>
+          <th>Rozsah adres</th>
+          <th>Maska</th>
+          <th>Prefix CIDR</th>
+          <th>Počet adres</th>
+          <th>Počet volných bitů</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>10.0.0.0 - 10.255.255.255</td>
+          <td>255.0.0.0</td>
+          <td>/8</td>
+          <td>16 777 216</td>
+          <td>24 bitů</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>172.16.0.0 - 172.31.255.255</td>
+          <td>255.240.0.0</td>
+          <td>/12</td>
+          <td>1 048 576</td>
+          <td>20 bitů</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>192.168.0.0 - 192.168.255.255</td>
+          <td>255.255.0.0</td>
+          <td>/16</td>
+          <td>65 536</td>
+          <td>16 bitů</td>
+      </tr>
+      <tr>
+          <td>Ale proč vlastně vznikly? Když začaly ubývat ipv4 vymyslely se lokální sítě, aby se zpomalilo ubývání IP adres. Tyto adresy se využívají v domácnostech a podnicích. Nejsou globálně delegované, tudíž na ně nelze přímo přistupovat z internetu.</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="loopback-adresy">Loopback adresy</h3>
+<p>Náš počítač má celý blok IP adres a tím je 127.0.0.0. Ten je vyhrazený pro loopback adresu, která je pouze v našem PC. Využívá se k testování a vývoji. Možná jste už někdy slyšeli slovo &ldquo;localhost&rdquo; tedy 127.0.0.1.</p>
+<h1 id="zdroje">Zdroje</h1>
+<p><a href="https://networkencyclopedia.com/ipv4/?utm_content=cmp-true">https://networkencyclopedia.com/ipv4/?utm_content=cmp-true</a>
+<a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a>
+<a href="https://www.meridianoutpost.com/resources/articles/IP-classes.php">https://www.meridianoutpost.com/resources/articles/IP-classes.php</a>
+<a href="https://en.wikipedia.org/wiki/IP_address">https://en.wikipedia.org/wiki/IP_address</a></p>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg !leading-[1.2] *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  >
+    
+    <a class="ltr:pr-3 rtl:pl-3" href="https://blog.kralyk.dev/posts/nevezme-nam-ai-praci/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>(Ne)vezme nám AI práci</span></a
+    >
+    
+    
+    <a class="ltr:ml-auto rtl:mr-auto justify-end pl-3" href="https://blog.kralyk.dev/posts/it-slovn%C3%ADk/"
+      ><span>IT slovník</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
+>
+  <div class="mr-auto">
+  
+    &copy; 2025
+    <a class="link" href="https://blog.kralyk.dev/">Kralyk&#39;s Blog</a>
+  
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+
+  </body>
+</html>
