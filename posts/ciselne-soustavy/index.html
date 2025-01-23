@@ -1,0 +1,409 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="cs"
+  dir="ltr"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Číselné soustavy - Kralyk&#39;s Blog</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Číselná soustava je způsob reprezentace čísel. Každá soustava je charakterizovaná základem neboli bází a označujeme jí &ldquo;r&rdquo;. Je to maximální počet číslic, které jsou v dané soustavě. V tomto článku se zaměříme jenom na poziční soustavy.
+Dvojková
+Dvojková neboli binární soustava má bázi 2. Tedy máme v soustavě 0 a 1. Využívají elektřina (0 = není ;1 = je). Dále jí také využívají počítače. Proč? Je to jednoduché. Pro počítač to je nejednoduší než počítat v naší desítkové. Jelikož nemá mozek, ale procesor a ten využívá elektřinu." />
+  <meta name="author" content="Kralyk&#39;s Blog" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://blog.kralyk.dev/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://blog.kralyk.dev/theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://blog.kralyk.dev/github.svg" />
+  
+  <link rel="preload" as="image" href="https://blog.kralyk.dev/instagram.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://blog.kralyk.dev/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link
+    rel="icon"
+    href="https://blog.kralyk.dev/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://blog.kralyk.dev/apple-touch-icon.png"
+  />
+
+  
+  <meta name="generator" content="Hugo 0.140.2">
+
+  
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Číselné soustavy">
+  <meta itemprop="description" content="Číselná soustava je způsob reprezentace čísel. Každá soustava je charakterizovaná základem neboli bází a označujeme jí “r”. Je to maximální počet číslic, které jsou v dané soustavě. V tomto článku se zaměříme jenom na poziční soustavy.
+Dvojková Dvojková neboli binární soustava má bázi 2. Tedy máme v soustavě 0 a 1. Využívají elektřina (0 = není ;1 = je). Dále jí také využívají počítače. Proč? Je to jednoduché. Pro počítač to je nejednoduší než počítat v naší desítkové. Jelikož nemá mozek, ale procesor a ten využívá elektřinu.">
+  <meta itemprop="datePublished" content="2025-01-23T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-01-23T00:00:00+00:00">
+  <meta itemprop="wordCount" content="550">
+  
+  <meta property="og:url" content="https://blog.kralyk.dev/posts/ciselne-soustavy/">
+  <meta property="og:site_name" content="Kralyk&#39;s Blog">
+  <meta property="og:title" content="Číselné soustavy">
+  <meta property="og:description" content="Číselná soustava je způsob reprezentace čísel. Každá soustava je charakterizovaná základem neboli bází a označujeme jí “r”. Je to maximální počet číslic, které jsou v dané soustavě. V tomto článku se zaměříme jenom na poziční soustavy.
+Dvojková Dvojková neboli binární soustava má bázi 2. Tedy máme v soustavě 0 a 1. Využívají elektřina (0 = není ;1 = je). Dále jí také využívají počítače. Proč? Je to jednoduché. Pro počítač to je nejednoduší než počítat v naší desítkové. Jelikož nemá mozek, ale procesor a ten využívá elektřinu.">
+  <meta property="og:locale" content="cs">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-23T00:00:00+00:00">
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Číselné soustavy">
+  <meta name="twitter:description" content="Číselná soustava je způsob reprezentace čísel. Každá soustava je charakterizovaná základem neboli bází a označujeme jí “r”. Je to maximální počet číslic, které jsou v dané soustavě. V tomto článku se zaměříme jenom na poziční soustavy.
+Dvojková Dvojková neboli binární soustava má bázi 2. Tedy máme v soustavě 0 a 1. Využívají elektřina (0 = není ;1 = je). Dále jí také využívají počítače. Proč? Je to jednoduché. Pro počítač to je nejednoduší než počítat v naší desítkové. Jelikož nemá mozek, ale procesor a ten využívá elektřinu.">
+
+  
+  
+
+  
+  <link rel="canonical" href="https://blog.kralyk.dev/posts/ciselne-soustavy/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="https://blog.kralyk.dev/"
+      >Kralyk&#39;s Blog</a
+    >
+    <div
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
+    >
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/kralicekgamer"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/matej.adamec_"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-14">
+    <h1 class="!my-0 pb-2.5">Číselné soustavy</h1>
+
+    
+    <div class="text-xs antialiased opacity-60">
+      
+      <time>Jan 23, 2025</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p>Číselná soustava je způsob reprezentace čísel. Každá soustava je charakterizovaná základem neboli bází a označujeme jí &ldquo;r&rdquo;. Je to maximální počet číslic, které jsou v dané soustavě. V tomto článku se zaměříme jenom na poziční soustavy.</p>
+<h2 id="dvojková">Dvojková</h2>
+<p>Dvojková neboli binární soustava má bázi 2. Tedy máme v soustavě 0 a 1. Využívají elektřina (0 = není ;1 = je). Dále jí také využívají počítače. Proč? Je to jednoduché. Pro počítač to je nejednoduší než počítat v naší desítkové. Jelikož nemá mozek, ale procesor a ten využívá elektřinu.</p>
+<h2 id="osmičková">Osmičková</h2>
+<p>Osmičková nebo také jako oktální soustava využívá bázi 8. Má tedy pouze 8 čísel. Jde velice snadno převést do soustavy dvojkové, jelikož osm je mocninou dvojky. Využívá se v IT stejně jako dvojková. Slouží také ke zjednodušení binárního zápisu</p>
+<h2 id="desítková">Desítková</h2>
+<p>Desítkovou soustavu používáme my lidé. Je založena na bázi 10. Využíváme ji v běžném životě.</p>
+<h2 id="šestnáctková">Šestnáctková</h2>
+<p>Šestnáctková soustava má bázi 16. Tudíž má čísla 0-9 a A-F. Takže (10)<!-- raw HTML omitted -->10<!-- raw HTML omitted --> je (A)<!-- raw HTML omitted -->16<!-- raw HTML omitted -->. Využívá se v také v PC. Oproti jiným soustavám se zápis výrazně zkrátí.</p>
+<h1 id="převody-mezi-soustavami-a-počítání-se-soustavami">Převody mezi soustavami a počítání se soustavami</h1>
+<h2 id="pochopení-principu-soustav">Pochopení principu soustav</h2>
+<p>Nejdříve musíme pochopit jak soustavy vlastně fungují. Dáváme čísla a když dojdou přidáme nový řád. Představme si to takhle. Máme takový ten starý počítač kilometrů. Počítáme 0, 1, 2..9 a už nám došly čísla tak skočíme na nový řád. 10, 11, 12..19 atd.. Takto to funguje u všech soustav. Binární má 1, 10, 11, 100, 101 atd.. Osmičková 0, 1, 2..8, 10 atd.. V šestnáctkové 0, 1, 2..9, A, B..F, 10. Nyní když už chápeme tento princip tak se můžeme vrhnout na převádění</p>
+<h2 id="převod-z-desítkové-soustavy">Převod z desítkové soustavy</h2>
+<p>Z desítkové soustavy do kterékoli soustavy je to velice jednoduché.</p>
+<ul>
+<li>Opakovaně dělíme číslo základem cílové soustavy. Při každém dělení si zaznamenáme zbytek. Po dokončení dělení od konce, čímž získáme číslo v požadované soustavě.</li>
+</ul>
+<h3 id="převod-do-binární-soustavy-čísla-125">Převod do binární soustavy čísla 125</h3>
+<ol>
+<li>125 ÷ 2 = 62, zbytek <strong>1</strong></li>
+<li>62 ÷ 2 = 31, zbytek <strong>0</strong></li>
+<li>31 ÷ 2 = 15, zbytek <strong>1</strong></li>
+<li>15 ÷ 2 = 7, zbytek <strong>1</strong></li>
+<li>7 ÷ 2 = 3, zbytek <strong>1</strong></li>
+<li>3 ÷ 2 = 1, zbytek <strong>1</strong></li>
+<li>1 ÷ 2 = 0, zbytek <strong>1</strong></li>
+</ol>
+<p>Binární zápis: <code>1111101</code></p>
+<h3 id="převod-do-šestnáctkové-soustavy-čísla-125">Převod do šestnáctkové soustavy čísla 125</h3>
+<ol>
+<li>125 ÷ 16 = 7, zbytek <strong>13</strong> (D v šestnáctkové soustavě)</li>
+<li>7 ÷ 16 = 0, zbytek <strong>7</strong></li>
+</ol>
+<p>Šestnáctkový zápis: <code>7D</code></p>
+<h2 id="převod-do-desítkové-soustavy">Převod do desítkové soustavy</h2>
+<ul>
+<li>Obecně platí, že každá pozice v čísle odpovídá mocnině základu číselné soustavy. Při převodu čísla z libovolné soustavy do desítkové soustavy se každá číslice v čísle vynásobí příslušnou mocninou základu, a výsledky se sečtou.</li>
+</ul>
+<h3 id="převod-čísla-125-z-binární-soustavy-do-desítkové">Převod čísla 125 z binární soustavy do desítkové:</h3>
+<ol>
+<li>125₂ = 1 * 2⁶ + 1 * 2⁵ + 1 * 2⁴ + 1 * 2³ + 1 * 2² + 0 * 2¹ + 1 * 2⁰</li>
+<li>125₂ = 64 + 32 + 16 + 8 + 4 + 0 + 1</li>
+</ol>
+<p>Desítkový zápis: <code>125</code></p>
+<h3 id="převod-čísla-125-z-osmičkové-soustavy-do-desítkové">Převod čísla 125 z osmičkové soustavy do desítkové:</h3>
+<ol>
+<li>125₈ = 1 * 8² + 2 * 8¹ + 5 * 8⁰</li>
+<li>125₈ = 64 + 16 + 5</li>
+</ol>
+<p>Desítkový zápis: <code>85</code></p>
+<h3 id="převod-čísla-125-z-šestnáctkové-soustavy-do-desítkové">Převod čísla 125 z šestnáctkové soustavy do desítkové:</h3>
+<ol>
+<li>125₁₆ = 1 * 16² + 2 * 16¹ + 5 * 16⁰</li>
+<li>125₁₆ = 256 + 32 + 5</li>
+</ol>
+<p>Desítkový zápis: <code>293</code></p>
+<h1 id="zdroje">Zdroje</h1>
+<p><a href="https://cs.wikipedia.org/wiki/%C4%8C%C3%ADseln%C3%A1_soustava">https://cs.wikipedia.org/wiki/%C4%8C%C3%ADseln%C3%A1_soustava</a>
+<a href="https://cs.wikipedia.org/wiki/Dvojkov%C3%A1_soustava">https://cs.wikipedia.org/wiki/Dvojkov%C3%A1_soustava</a>
+<a href="https://cs.wikipedia.org/wiki/Osmi%C4%8Dkov%C3%A1_soustava">https://cs.wikipedia.org/wiki/Osmi%C4%8Dkov%C3%A1_soustava</a>
+<a href="https://cs.wikipedia.org/wiki/%C5%A0estn%C3%A1ctkov%C3%A1_soustava">https://cs.wikipedia.org/wiki/%C5%A0estn%C3%A1ctkov%C3%A1_soustava</a>
+<a href="https://www.ict.mazuch.net/subdom/ict/ciselne-soustavy/">https://www.ict.mazuch.net/subdom/ict/ciselne-soustavy/</a>
+<a href="https://www.spssol.cz/rsimages/DUM/ICT/S01_07_Ciselne_soustavy_prezentace.pdf">https://www.spssol.cz/rsimages/DUM/ICT/S01_07_Ciselne_soustavy_prezentace.pdf</a>
+<a href="https://en.wikipedia.org/wiki/Numeral_system">https://en.wikipedia.org/wiki/Numeral_system</a></p>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg !leading-[1.2] *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  >
+    
+    
+    <a class="ltr:ml-auto rtl:mr-auto justify-end pl-3" href="https://blog.kralyk.dev/posts/it-slovn%C3%ADk/"
+      ><span>IT slovník</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
+>
+  <div class="mr-auto">
+  
+    &copy; 2025
+    <a class="link" href="https://blog.kralyk.dev/">Kralyk&#39;s Blog</a>
+  
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+
+  </body>
+</html>
