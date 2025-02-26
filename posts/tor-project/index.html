@@ -290,7 +290,7 @@ Tor - softwarový systém Tor Browser - prohlížeč na přístup do tor sítě 
     
   </header>
 
-  <section><h1 id="základní-terminologie">Základní terminologie</h1>
+  <section><h2 id="základní-terminologie">Základní terminologie</h2>
 <p>Nejdříve než začneme je nutné si uvědomit základní terminologii.</p>
 <ul>
 <li>Tor - softwarový systém</li>
@@ -298,11 +298,11 @@ Tor - softwarový systém Tor Browser - prohlížeč na přístup do tor sítě 
 <li>.onion - pseudodoména pro tor</li>
 <li>DarkWeb - část internetu nedohledatelná běžným vyhledávačem a je nutné pro prohlížení proxy, nejznámější je tor</li>
 </ul>
-<h1 id="co-to-vlastně-tor-je">Co to vlastně Tor je?</h1>
+<h2 id="co-to-vlastně-tor-je">Co to vlastně Tor je?</h2>
 <p>Tor je softwarový systém, který funguje na principu klient-server (oddělení klienta a serveru). Je to vysoce anonymní způsob přístupu k internetu. Dokáže totiž skrýt IP uživatele i serveru a tak je zajištěné anonymní setkání uživatele a serveru. Ačkoliv je TOR zkratka (The Onion Routing) nyní je již považován za slovo.</p>
-<h1 id="onion-adresy">.onion adresy</h1>
+<h2 id="onion-adresy">.onion adresy</h2>
 <p>Adresa s koncovkou .onion je generována na základě veřejného klíče při konfiguraci skryté služby v síti tor.. Původní verze adres (v2) měly 16 znaků, zatímco novější verze (v3) mají 56 znaků, což zvyšuje bezpečnost a odolnost proti útokům.</p>
-<h1 id="jak-to-funguje">Jak to funguje?</h1>
+<h2 id="jak-to-funguje">Jak to funguje?</h2>
 <p>Tor na komunikaci mezi uživateli a službami využívá uzly. To jsou servery provozovány uživateli přes které teče komunikace. Tyto nody jsou 3. Nazývají se entry, middle a exit node.</p>
 <ul>
 <li>entry node (vstupní uzel) - node zná ip uživatele ale neví kam teče provoz</li>
@@ -311,7 +311,7 @@ Tor - softwarový systém Tor Browser - prohlížeč na přístup do tor sítě 
 Tedy to tomu jde porozumět tak, že každá node zná co bylo před ní a co následuje ale nezná celý řetězec.
 Zde si musíme uvědomit, že tor lze používat na přístup na normální web a tedy exit node jde na google.com například nebo pokud jde o skrytou službu tak se vytvoří styčný bod kde se sejde server a uživatel.</li>
 </ul>
-<h2 id="jak-se-uživatel-připojí">Jak se uživatel připojí</h2>
+<h3 id="jak-se-uživatel-připojí">Jak se uživatel připojí</h3>
 <ol>
 <li>
 <p>Uživatel zjistí introduction points (úvodní body) skryté služby</p>
@@ -342,11 +342,11 @@ Zde si musíme uvědomit, že tor lze používat na přístup na normální web 
 </ul>
 </li>
 </ol>
-<h1 id="darkweb-není-tor">DarkWeb není Tor</h1>
+<h2 id="darkweb-není-tor">DarkWeb není Tor</h2>
 <p>Ačkoli je DarkWeb často spojován s nelegálními aktivitami, síť Tor má také legitimní a prospěšné využití. Poskytuje platformu pro svobodné vyjadřování v zemích s přísnou cenzurou, umožňuje novinářům komunikovat anonymně a bezpečně, a chrání soukromí uživatelů před sledováním. Například The New York Times a BBC provozují své .onion verze, aby umožnily bezpečný přístup čtenářům v restriktivních zemích.</p>
-<h1 id="pár-slov-na-konec">Pár slov na konec</h1>
+<h2 id="pár-slov-na-konec">Pár slov na konec</h2>
 <p>Aby tento článek nebyl tak dlouhý. Toto je jenom 1. část na toho téma. Do budoucna budou vznikat další články na toto a podobné téma. Další článek bude na téma bezpečnost a pak už se můžeme vrhnou na nějakou prohledávačku.</p>
-<h1 id="zdroje">Zdroje</h1>
+<h2 id="zdroje">Zdroje</h2>
 <p><a href="https://cs.wikipedia.org/wiki/Tor_(software)">https://cs.wikipedia.org/wiki/Tor_(software)</a>
 <a href="https://en.wikipedia.org/wiki/Tor_(network)">https://en.wikipedia.org/wiki/Tor_(network)</a>
 <a href="https://www.torproject.org/">https://www.torproject.org/</a>
